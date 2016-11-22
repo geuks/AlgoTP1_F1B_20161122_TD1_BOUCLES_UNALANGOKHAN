@@ -1,0 +1,23 @@
+AlgoTP1_F1B_20161122_TD1_BOUCLES_UNALANGOKHAN
+
+Jeu de Test
+
+SI 
+VAR
+	nbr = 15
+	ch = ''
+
+nbr	|	ch
+----|------
+15	|	''
+----|------
+7	|	1
+----|------
+3	|	1
+----|------
+15	|	1
+----|------
+0	|	1
+	
+
+Le code binaire de votre nombre est : 1111

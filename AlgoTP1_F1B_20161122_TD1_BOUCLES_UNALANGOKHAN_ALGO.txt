@@ -1,0 +1,35 @@
+AlgoTP1_F1B_20161122_TD1_BOUCLES_UNALANGOKHAN
+//BUT:Utilisateur saisi 1 vaileur entiere, retourner en binaire
+//ENTREE:1 ENTIER
+//SORTIE: Valeur binaire
+
+VAR
+	nbr:ENTIER
+	ch:CHAINE
+	
+DEBUT
+
+ECRIRE 'Entrez un nombre pour le convertir en binaire'
+LIRE nbr
+
+ch<-- ''
+
+REPETER
+	SI (nbr MOD 2=1) ALORS
+		ch<-- '1'+ch
+	SINON
+		ch<-- '0'+ch
+		nbr<-- nbr DIV 2
+	FINSI
+	
+JUSQU'A nbr=0
+
+ECRIRE 'Le resultat de votre nombre binaire est : ' & ch
+
+ECRIRE 'Appuiyer sur entrée pour faire la verification'
+
+LIRE
+
+POUR i DE 1 A 
+
+FIN
